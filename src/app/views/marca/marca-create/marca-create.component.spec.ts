@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OsCreateComponent } from './os-create.component';
+import { MarcaCreateComponent } from './marca-create.component';
 
-describe('OsCreateComponent', () => {
-  let component: OsCreateComponent;
-  let fixture: ComponentFixture<OsCreateComponent>;
+describe('MarcaCreateComponent', () => {
+  let component: MarcaCreateComponent;
+  let fixture: ComponentFixture<MarcaCreateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OsCreateComponent ]
+      declarations: [ MarcaCreateComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OsCreateComponent);
+    fixture = TestBed.createComponent(MarcaCreateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
